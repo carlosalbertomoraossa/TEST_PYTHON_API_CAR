@@ -1,0 +1,7 @@
+vEnv/
+vEnvTemp/
+.vscode/
+*__pycache__
+.env
+function.zip
+.idea/
