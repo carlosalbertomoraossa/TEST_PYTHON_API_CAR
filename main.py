@@ -15,5 +15,6 @@ def get_items_route():
 def get_item_route(item_id):
     return jsonify(item_controller.get_item(item_id))
 
+
 if __name__ == '__main__':
     app.run(debug=True, port=8080)
